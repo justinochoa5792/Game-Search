@@ -11,7 +11,10 @@ const Home = () => {
           Search
         </Link>
         <Link className="link" to="/filtered">
-          Filtered
+          Stores
+        </Link>
+        <Link className="link" to="/deals">
+          Deals
         </Link>
       </div>
     </div>
