@@ -3,10 +3,15 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
-      <Link className="link" to="/">
-        Home
-      </Link>
+    <div className="nav">
+      <h1>Video Game SuperStore!</h1>
+      <div className="nav-link">
+        <i class="fas fa-backward">
+          <Link style={{ color: "white" }} className="link" to="/">
+            Home
+          </Link>
+        </i>
+      </div>
     </div>
   );
 };

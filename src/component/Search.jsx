@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Axios from "axios";
 
 const Search = () => {
@@ -43,9 +43,9 @@ const Search = () => {
   };
 
   return (
-    <div>
+    <div className="search-page">
       <form onSubmit={handleSubmit}>
-        <label>Search for a game!</label>
+        <h3>Search for a game!</h3>
         <input type="search" placeholder="Type Game" onChange={handleChange} />
       </form>
       {renderGames()}

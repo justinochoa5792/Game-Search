@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../App.css";
+
 const Home = () => {
   return (
-    <div>
-      <h1>Hello From Home</h1>
+    <div className="home">
+      <h2>Search and compare games from yesterday and today!</h2>
       <Link className="link" to="/search">
         Search
       </Link>
