@@ -6,12 +6,14 @@ const Home = () => {
   return (
     <div className="home">
       <h2>Search and compare games from yesterday and today!</h2>
-      <Link className="link" to="/search">
-        Search
-      </Link>
-      <Link className="link" to="/filtered">
-        Filtered
-      </Link>
+      <div className="home-link">
+        <Link className="link" to="/search">
+          Search
+        </Link>
+        <Link className="link" to="/filtered">
+          Filtered
+        </Link>
+      </div>
     </div>
   );
 };
